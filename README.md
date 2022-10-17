@@ -24,6 +24,7 @@ Display Result.
 Program to solve a matrix using Gaussian elimination with partial pivoting.
 Developed by:   Siva Chandran R
 RegisterNumber: 22005531
+
 import numpy as np
 import sys
 n=int(input())
@@ -32,6 +33,7 @@ x=np.zeros(n)
 for i in range(n):
     for j in range(n+1):
         a[i][j]=float(input())
+
 for i in range(n):
     if a[i][j]==0.0:
         sys.exit('Divide by zero found!')
@@ -40,7 +42,8 @@ for i in range(n):
         
         for k in range (n+1):
             a[j][k]=a[j][k]-ratio*a[i][k]
-            
+
+
 x[n-1]=a[n-1][n]/a[n-1][n-1]
 for i in range(n-2,-1,-1):
     x[i]=a[i][n]
@@ -49,15 +52,11 @@ for i in range(n-2,-1,-1):
         x[i]=x[i]-a[i][j]*x[j]
         
     x[i]=x[i]/a[i][i]
-    
+
+
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]), end = ' ')
 ```
-
-
-
-
-
 
 ## Output:
 ![OUTPUT](out7.png)

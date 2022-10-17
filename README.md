@@ -27,15 +27,18 @@ Display Result.
 ## Program:
 ``` python
 
+
 Program to solve a matrix using Gaussian elimination with partial pivoting.
 Developed by:   Siva Chandran R
 RegisterNumber: 22005531
 
 import numpy as np
 import sys
+
 n=int(input())
 a=np.zeros((n,n+1))
 x=np.zeros(n)
+
 
 for i in range(n):
     for j in range(n+1):
@@ -53,6 +56,7 @@ for i in range(n):
 
 
 x[n-1]=a[n-1][n]/a[n-1][n-1]
+
 
 for i in range(n-2,-1,-1):
     x[i]=a[i][n]

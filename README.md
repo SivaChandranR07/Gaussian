@@ -1,10 +1,14 @@
 # Gaussian Elimination
+
 ## AIM:
 To write a program to find the solution of a matrix using Gaussian Elimination.
+
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
+
 ## Algorithm:
+
 ### Step 1: 
 At first, we have imported the necessary libraries we will use in our program.
 ### Step 2:
@@ -19,6 +23,7 @@ After that, we applied the Gaussian elimination method.
 After that, we apply the back substitution method to obtain the desired output.
 ### Step 7:
 Display Result.
+
 ## Program:
 ``` python
 Program to solve a matrix using Gaussian elimination with partial pivoting.

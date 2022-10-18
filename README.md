@@ -23,7 +23,6 @@ After that, we applied the Gaussian elimination method.
 After that, we apply the back substitution method to obtain the desired output.
 ### Step 7:
 Display Result.
-
 ## Program:
 ``` python
 
@@ -72,6 +71,8 @@ for i in range(n-2,-1,-1):
 
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]), end = ' ')
+
+
 
 ```
 

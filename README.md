@@ -19,6 +19,7 @@ Transform Augmented Matrix (A) to Upper Trainagular Matrix by Row Operations.
 After that, we applied the Gaussian elimination method.
 ### Step 6:
 After that, we apply the back substitution method to obtain the desired output.
+
 ### Step 7:
 Display Result.
 ## Program:

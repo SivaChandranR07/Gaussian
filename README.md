@@ -4,8 +4,10 @@
 To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
+### 1.
+Hardware – PCs
+### 2.
+Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step 1: 
 At first, we have imported the necessary libraries we will use in our program.

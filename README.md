@@ -1,8 +1,6 @@
 # Gaussian Elimination
-
 ## Aim:
 To write a program to find the solution of a matrix using Gaussian Elimination.
-
 ## Equipments Required:
 ### 1.
 Hardware – PCs
